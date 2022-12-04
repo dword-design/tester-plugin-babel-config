@@ -1,4 +1,4 @@
-import execa from 'execa'
+import { execa } from 'execa'
 import outputFiles from 'output-files'
 import P from 'path'
 import withLocalTmpDir from 'with-local-tmp-dir'
