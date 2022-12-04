@@ -1,10 +1,10 @@
 import { endent } from '@dword-design/functions'
 import tester from '@dword-design/tester'
 import packageName from 'depcheck-package-name'
-import { readFile } from 'fs-extra'
+import fs from 'fs-extra'
 import P from 'path'
 
-import self from '.'
+import self from './index.js'
 
 export default tester(
   {
@@ -26,7 +26,7 @@ export default tester(
       },
       async test() {
         expect(
-          await readFile(P.join('sub', 'dist', 'index.js'), 'utf8')
+          await fs.readFile(P.join('sub', 'dist', 'index.js'), 'utf8')
         ).toMatchSnapshot(this)
       },
     },
@@ -47,7 +47,7 @@ export default tester(
       },
       async test() {
         expect(
-          await readFile(P.join('dist', 'index.js'), 'utf8')
+          await fs.readFile(P.join('dist', 'index.js'), 'utf8')
         ).toMatchSnapshot(this)
       },
     },
