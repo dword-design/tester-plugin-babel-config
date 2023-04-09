@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.19.4",
     "@dword-design/base": "^9.1.7",
-    "@dword-design/functions": "^4.1.0",
+    "@dword-design/functions": "^5.0.0",
     "@dword-design/tester": "^2.0.11",
     "depcheck-package-name": "^2.0.6",
     "fs-extra": "^11.1.0"
