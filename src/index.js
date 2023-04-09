@@ -24,7 +24,7 @@ export default configPath => ({
             P.resolve(configPath),
             'src',
           ],
-          { cwd: test.cwd }
+          { cwd: test.cwd },
         )
         await test.test.call(this)
       })

@@ -26,7 +26,7 @@ export default tester(
       },
       async test() {
         expect(
-          await fs.readFile(P.join('sub', 'dist', 'index.js'), 'utf8')
+          await fs.readFile(P.join('sub', 'dist', 'index.js'), 'utf8'),
         ).toMatchSnapshot(this)
       },
     },
@@ -47,10 +47,10 @@ export default tester(
       },
       async test() {
         expect(
-          await fs.readFile(P.join('dist', 'index.js'), 'utf8')
+          await fs.readFile(P.join('dist', 'index.js'), 'utf8'),
         ).toMatchSnapshot(this)
       },
     },
   },
-  [self('babel.config.js')]
+  [self('babel.config.js')],
 )
