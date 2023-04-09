@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/dword-design/tester-plugin-babel-config/compare/v1.0.13...v1.0.14) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.21 ([0d47827](https://github.com/dword-design/tester-plugin-babel-config/commit/0d478271be935ab13e245fceccab26880a178bcc))
+
 ## [1.0.13](https://github.com/dword-design/tester-plugin-babel-config/compare/v1.0.12...v1.0.13) (2023-04-09)
 
 
