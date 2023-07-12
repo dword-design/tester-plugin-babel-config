@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/dword-design/tester-plugin-babel-config/compare/v1.0.25...v1.0.26) (2023-07-12)
+
+
+### Bug Fixes
+
+* update dependency @babel/preset-env to v7.22.9 ([80f369d](https://github.com/dword-design/tester-plugin-babel-config/commit/80f369ddc55304f198354bed0514e6668ca07ac8))
+
 ## [1.0.25](https://github.com/dword-design/tester-plugin-babel-config/compare/v1.0.24...v1.0.25) (2023-07-06)
 
 
