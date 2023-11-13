@@ -22,7 +22,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "execa": "^6.1.0",
+    "execa": "^8.0.0",
     "output-files": "^2.0.10",
     "with-local-tmp-dir": "^4.1.0"
   },
