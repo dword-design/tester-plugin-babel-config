@@ -1,3 +1,10 @@
+## [1.0.30](https://github.com/dword-design/tester-plugin-babel-config/compare/v1.0.29...v1.0.30) (2024-01-09)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v11.2.0 ([d5c0c27](https://github.com/dword-design/tester-plugin-babel-config/commit/d5c0c2790f457c758e1e2e12bc45f26f2fe61876))
+
 ## [1.0.29](https://github.com/dword-design/tester-plugin-babel-config/compare/v1.0.28...v1.0.29) (2024-01-09)
 
 
