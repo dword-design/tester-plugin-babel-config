@@ -24,7 +24,7 @@
   "dependencies": {
     "execa": "^6.1.0",
     "output-files": "^2.0.10",
-    "with-local-tmp-dir": "^4.1.0"
+    "with-local-tmp-dir": "^5.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.19.4",
